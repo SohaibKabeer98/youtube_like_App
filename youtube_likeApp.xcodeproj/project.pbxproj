@@ -13,6 +13,8 @@
 		B505FFF02898535B00DD03CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B505FFEF2898535B00DD03CD /* Assets.xcassets */; };
 		B505FFF32898535B00DD03CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B505FFF12898535B00DD03CD /* LaunchScreen.storyboard */; };
 		B54D4D3028A6A4CB00920737 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D4D2F28A6A4CB00920737 /* CacheManager.swift */; };
+		B54D4D3428A6C37C00920737 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D4D3328A6C37C00920737 /* DetailViewController.swift */; };
+		B54D4D3728A6CADB00920737 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54D4D3628A6CADB00920737 /* WebKit.framework */; };
 		B571139C289D2ADD00E349B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571139B289D2ADD00E349B9 /* Constants.swift */; };
 		B571139E289D2DC800E349B9 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571139D289D2DC800E349B9 /* Video.swift */; };
 		B57113A0289D2E4400E349B9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571139F289D2E4400E349B9 /* Model.swift */; };
@@ -31,6 +33,8 @@
 		B505FFF22898535B00DD03CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B505FFF42898535B00DD03CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B54D4D2F28A6A4CB00920737 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		B54D4D3328A6C37C00920737 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B54D4D3628A6CADB00920737 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		B571139B289D2ADD00E349B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B571139D289D2DC800E349B9 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		B571139F289D2E4400E349B9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54D4D3728A6CADB00920737 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,7 @@
 			children = (
 				B505FFE52898535800DD03CD /* youtube_likeApp */,
 				B505FFE42898535800DD03CD /* Products */,
+				B54D4D3528A6CADA00920737 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +87,14 @@
 			path = youtube_likeApp;
 			sourceTree = "<group>";
 		};
+		B54D4D3528A6CADA00920737 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B54D4D3628A6CADB00920737 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5FFAD1028A373A000B79700 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				B505FFEA2898535800DD03CD /* ViewController.swift */,
+				B54D4D3328A6C37C00920737 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -203,6 +218,7 @@
 				B505FFE92898535800DD03CD /* SceneDelegate.swift in Sources */,
 				B57113A0289D2E4400E349B9 /* Model.swift in Sources */,
 				B571139C289D2ADD00E349B9 /* Constants.swift in Sources */,
+				B54D4D3428A6C37C00920737 /* DetailViewController.swift in Sources */,
 				B571139E289D2DC800E349B9 /* Video.swift in Sources */,
 				B591E4FB28A12E9500E91C31 /* Response.swift in Sources */,
 			);
